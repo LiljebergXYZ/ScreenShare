@@ -3,12 +3,12 @@
   "RequestType": "POST",
   "RequestURL": "https://content.dropboxapi.com/2/files/upload",
   "FileFormName": "image",
-	"DataOnly": true,
-	"Headers": {
-		"Content-Type": "application/octet-stream",
-		"Authorization": "Bearer YOUR-AUTH-TOKEN",
-		"Dropbox-API-Arg": "{\"path\": \"/Public/$random$.png\",\"mode\": \"add\",\"autorename\": true,\"mute\": false}"
-	},
+  "DataOnly": true,
+  "Headers": {
+    "Content-Type": "application/octet-stream",
+    "Authorization": "Bearer YOUR-AUTH-TOKEN",
+    "Dropbox-API-Arg": "{\"path\": \"/Public/$random$.png\",\"mode\": \"add\",\"autorename\": true,\"mute\": false}"
+  },
   "ResponseType": "Text",
   "URL": "https://dl.dropboxusercontent.com/u/12345/$json:name$"
 }
