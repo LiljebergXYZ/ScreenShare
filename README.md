@@ -1,8 +1,7 @@
 # ScreenShare
 
 ScreenShare allows you to take and share a screenshot from anywhere on your Mac simply by pressing on the icon in the statusbar.
-Inspired by [ClipUpload](http://clipupload.net/) and [ShareX](http://getsharex.com/) there are simple .json files used to create "addons" or add "providers". This allow for custom uploaders of any kind a good example is the Dropbox configuration found in the providers folder (dropbox.json.example) that shows how to upload to dropbox using an auth token (this can be acquired by creating your own app for dropbox and grabbing your auth token). Some custom uploaders
- of ShareX are even compatible right out of the box.
+Inspired by [ClipUpload](http://clipupload.net/) and [ShareX](http://getsharex.com/) there are simple .json files used to create "addons" or add "providers". This allows custom uploaders of any kind. A good example is the Dropbox configuration found in the providers folder (dropbox.json.example) that shows how to upload to dropbox using an auth token (this can be acquired by creating your own app for dropbox and grabbing your auth token). Some custom uploaders of ShareX are even compatible right out of the box.
 
 Uploading text and shortening a URL is also possible and will be put under "Tools" in the context menu. For this you can look at the pastebin.json and hnng.moe (URL shortener).json.
 
